@@ -1,0 +1,113 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.weather .current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.weather .current-weather .current-weather__city-name {
+  font-size: 24px;
+}
+
+.weather .current-weather .current-weather__data {
+  display: flex;
+  align-items: center;
+}
+
+.weather .current-weather .current-weather__data .image-container {
+  width: 75px;
+}
+
+.weather .current-weather .current-weather__data .image-container .image {
+  width: 100%;
+  max-height: auto;
+}
+
+.weather .current-weather .current-weather__data .current-weather__temp {
+  font-size: 96px;
+  padding: 0 16px;
+  line-height: 1;
+}
+
+.weather .current-weather .current-weather__data .current-weather__unit {
+  font-size: 48px;
+  font-weight: 600;
+  align-self: flex-start;
+  flex-wrap: nowrap;
+  line-height: 1;
+  margin-right: 12px;
+}
+
+.weather .current-weather__description {
+  font-size: 20px;
+}
+
+.weather .daily-forecast-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.weather .daily-forecast-list .daily-forecast {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  min-width: 112px;
+  cursor: default;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+
+.weather .daily-forecast-list .daily-forecast:hover {
+  background: #e5e5e5;
+}
+
+.weather .daily-forecast-list .daily-forecast--selected {
+  background: #d5d5d5;
+}
+
+.weather .daily-forecast-list .daily-forecast--selected:hover {
+  background: #d5d5d5;
+}
+
+.weather .daily-forecast-list > * {
+  margin-right: 16px;
+}
+
+.weather .daily-forecast-list :last-child {
+  margin-right: 0;
+}
+
+.weather .daily-forecast-list .daily-forecast .daily-forecast__date {
+  padding-bottom: 4px;
+}
+
+.weather .daily-forecast-list .daily-forecast .daily-forecast__data {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 8px;
+}
+
+.weather .daily-forecast-list .daily-forecast .daily-forecast__data .daily-forecast__max-temp {
+  font-size: 24px;
+  padding-right: 4px;
+}
+
+.weather .daily-forecast-list .daily-forecast .daily-forecast__data .daily-forecast__min-temp {
+  font-size: 18px;
+  color: #444444;
+}
+
+.weather .hourly-graph {
+  width: 100%;
+}

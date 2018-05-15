@@ -1,0 +1,36 @@
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search .search__field {
+  max-width: 600px;
+  border: none;
+  height: 48px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.search .prediction {
+  background: #f5f5f5;
+  max-width: 600px;
+  cursor: default;
+  padding: 8px 0;
+  position: absolute;
+  top: 48px;
+  width: 100%;
+}
+
+.search .prediction .prediction__item {
+  padding: 8px 16px;
+}
+
+.search .prediction .prediction__item:hover {
+  background: #e0e0e0;
+}
+
+.search .prediction .prediction__item .prediction__item-secondary-text{
+  font-size: 12px;
+  color: #666666;
+}

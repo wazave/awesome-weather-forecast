@@ -1,0 +1,23 @@
+.past-searches {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .past-searches .queried-city-list {
+    max-width: 600px;
+    cursor: default;
+    width: 100%;
+  }
+  
+  .past-searches .queried-city-list .queried-city {
+    padding: 8px 16px;
+  }
+  
+  .past-searches .queried-city-list .queried-city:hover {
+    background: #e0e0e0;
+  }
+  
+  .past-searches .queried-city-list .queried-city .queried-city__secondary-text {
+    font-size: 12px;
+    color: #666666;
+  }
